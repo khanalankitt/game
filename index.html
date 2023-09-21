@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="https://icons8.com/icon/81939/game-controller" type="image/x-icon">  
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissor</h1>
+        <div class="top">
+            <div class="left child">
+                <div class="photo photo-me">
+
+                </div>
+            </div>
+            <hr>
+            <div class="right child">
+                <div class="photo photo-pc">
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <button class="rock" onClick='set("rock")'>Rock</button>
+            <button class="'paper" onClick='set("paper")'>Paper</button>
+            <button class="scissor" onClick='set("scissor")'>Scissor</button>
+        </div>
+    </div>
+    <h1 class="result">Result: 
+        <span class="span"></span>
+    </h1><br>
+    <h1 class="score">
+        You: (<span class="me-score"></span>)
+        Computer: (<span class="pc-score"></span>)
+    </h1>
+<script src="./app.js"></script>
+</body>
+</html>
